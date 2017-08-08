@@ -1,10 +1,135 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Curriculum - Educaicon</title>
+      <meta charset="utf-8">
+      <meta name="author" content="Diego Paul Rosero Guerra">
+      <meta name="keywords" content="Next University">
+      <meta name="description" content="Curriculum Vitae">
+      <meta name="viewport" content="with=device-with, user-scalable =no">
+      <title>Curriculum Vitae</title>
+
   </head>
   <body>
+<header>
+  <svg width="200px" height="200px" viewbox="0 0 200 200">
+    <image width="300px" height="300px"   xlink:href="img/logo.svg" ></image>
+  </svg>
+<h1>Curriculum Vitae</h1>
+<h2>Diego Paul Rosero Guerra</h2>
+<h3>5 de enero de 1977, Riobamba - Chimborazo - Ecuador</h3>
+</header>
 
+<nav>
+  <ul>
+    <li> <a href="index.html">Inicio</a>   </li>
+    <li> <a href="educacion.html">Educacion</a>  </li>
+    <li>  <a href="experiencia.html">Experiencia</a>   </li>
+    <li> <a href="proyectos.html">Proyecto</a>   </li>
+  </ul>
+</nav>
+
+<article>
+<h2>Educación</h2>
+<p>
+  <table border="2" cellpadding = "10" cellspacing="0">
+    <thead>
+    <tr>
+      <th>AÑO</th>
+      <td><strong>INSTITUCION</strong></td>
+      <td><strong>TITULO/CERTIFICADO</strong></td>
+      <td><strong>LUGAR</strong></td>
+      <td><strong>CULMINO?</strong></td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>2017</td>
+      <td>NEXT UNIVERSITY</td>
+      <td>ESTUDIANTE</td>
+      <td>INTERNET</td>
+      <td>NO</td>
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>REMECO</td>
+      <td>TECNICO - MANEJO Y AUTOMATIZACION DE EQUIPOS DE CONTROL, MOTORES WEG</td>
+      <td>QUITO - ECUADOR</td>
+      <td>SI</td>
+    </tr>
+    <tr>
+      <td>2002</td>
+      <td>ESPOCH - ESCUELA SUPERIOR POLITECNICA DEL CHIMBORAZO</td>
+      <td>INGENIERO EN SISTEMAS</td>
+      <td>RIOBAMBA - ECUADOR</td>
+      <td>SI</td>
+    </tr>
+    </tr>
+      <td>1994</td>
+      <td>COLEGIO SALESIANOS SANTO TOMAS APOSTOL RIOBAMBA</td>
+      <td>BACHILLER EN CIENCIAS DE LA EDUCACION</td>
+      <td>RIOBAMBA - ECUADOR</td>
+      <td>SI</td>
+    </tr>
+  <tbody>
+  <tfoot>
+  </tr>
+    <td>1988</td>
+    <td>ESCUELA SALESIANA FLAVIO LEON NAJERA</td>
+    <td>ESTUDIANTE</td>
+    <td>RIOBAMBA - ECUADOR</td>
+    <td>SI</td>
+  </tr>
+  </tfoot>
+<table>
+</p>
+
+
+<form name="formRegistro">
+  <fieldset>
+    <legend> <h2>Agregar estudios </h2>    </legend>
+    <p>
+      <label for="recom">Año:</label>
+      <select  name="recom">
+        <option value="1">2017</option>
+        <option value="2">2016</option>
+        <option value="3">2015</option>
+        <option value="4">2014</option>
+        <option value="5">2013</option>
+        <option value="6">2012</option>
+        <option value="7">2011</option>
+      </select>
+    </p>
+    <p>
+      <label for="inst">Institucion:</label>
+      <input id="inst" type="text" placeholder="Aqui nombre de institucion educativa" size="50%" required >
+    </p>
+    <p>
+      <label for="lugar">Lugar:</label>
+      <textarea name="lugar" rows="3" cols="60" required ></textarea>
+    </p>
+    <p>
+      <label for="culmina">Culminó?</label>
+      <input type="radio" name="culmina-si" value=""> Si
+      <input type="radio" name="culmina-no" value=""> No
+    </p>
+    <input type="reset" value="Limpiar">
+    <input type="submit" value="Enviar">
+  </fieldset>
+</form>
+
+</article>
+
+<footer>
+<h2>Contacto  </h2>
+<p>
+  <ul>
+    <li>Email: <a href="mailto:rodasof@andinanet.net?subject=Reenvio">rodasof@andinanet.net</a></li>
+
+    <li>Telefono: +593-32961699 +593-998320897</li>
+    <li>Direccion: Orozco 3620 y Uruguay / Riobamba - Ecuador</li>
+  </ul>
+</p>
+
+</footer>
   </body>
 </html>
